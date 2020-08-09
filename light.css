@@ -1,0 +1,16 @@
+:root {
+  /* --gradientColourOne: rgb(255, 255, 255);
+  --gradientColourTwo: rgb(182, 182, 182); */
+
+  --sectionOne: rgb(233, 233, 233);
+  --sectionTwo: white;
+
+  --cardBody: rgb(255, 255, 255);
+  --cardHeader: rgb(245, 245, 245);
+
+  --mainText: rgb(26, 26, 26);
+  --secondaryText: rgb(66, 66, 66);
+
+  --borderColour: #c1c1c1;
+  --themeDotBorder: #c1c1c1;
+}
