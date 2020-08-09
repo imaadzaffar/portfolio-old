@@ -1,7 +1,4 @@
 :root {
-  /* --gradientColourOne: darkviolet;
-  --gradientColourTwo: rgb(127, 0, 211); */
-
   --sectionOne: rgb(127, 0, 211);
   --sectionTwo: rgb(167, 32, 224);
 
@@ -9,7 +6,7 @@
   --cardHeader: rgb(141, 34, 212);
 
   --mainText: rgb(255, 255, 255);
-  --secondaryText: rgb(211, 211, 211);
+  --secondaryText: rgb(237, 226, 247);
 
   --borderColour: rgb(110, 16, 150);
   --themeDotBorder: white;

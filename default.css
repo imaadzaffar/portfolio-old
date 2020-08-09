@@ -1,7 +1,4 @@
 :root {
-  /* --gradientColourOne: rgb(255, 255, 255);
-  --gradientColourTwo: rgb(182, 182, 182); */
-
   --sectionOne: rgb(209, 209, 209);
   --sectionTwo: white;
 
@@ -50,13 +47,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-.s-banner {
-  background: var(--gradientColourOne);
-  /* background: -moz-linear-gradient(to right, var(--gradientColourOne), var(--gradientColourTwo));
-  background: -webkit-linear-gradient(to right, var(--gradientColourOne), var(--gradientColourTwo));
-  background: linear-gradient(to right, var(--gradientColourOne), var(--gradientColourTwo)); */
 }
 
 .s-1 {

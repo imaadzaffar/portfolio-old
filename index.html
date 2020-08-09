@@ -14,6 +14,9 @@
         <!-- Custom Bootstrap 4 -->
         <link rel="stylesheet" href="css/custom.css">
 
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/4dce3d337b.js" crossorigin="anonymous"></script>
+
         <!-- Default CSS -->
         <link rel="stylesheet" href="default.css" type="text/css">
 
@@ -31,14 +34,14 @@
                         <p class="lead">Welcome to my home on the Internet :)</p>
                     </div>
                     <div class="col-md-4 col-lg-3">
-                        <div class="card">
+                        <div class="card mx-auto" style="max-width: 250px;">
                             <h5 class="card-header">Personalise Theme</h5>
                             <div class="card-body">
                                 <div class="theme-picker-wrapper">
                                     <div data-theme="light" id="light-theme" class="theme-dot"></div>
                                     <div data-theme="dark" id="dark-theme" class="theme-dot"></div>
-                                    <div data-theme="purple" id="purple-theme" class="theme-dot"></div>
                                     <div data-theme="blue" id="blue-theme" class="theme-dot"></div>
+                                    <div data-theme="purple" id="purple-theme" class="theme-dot"></div>
                                 </div>
                                 <span class="font-italic">Theme settings will be saved for your next visit</span>
                             </div>
@@ -49,7 +52,7 @@
         </section>
         <section class="s-2">
             <div class="container">
-                <h2>About Me</h2>
+                <h2>🧬 About Me</h2>
                 <p>Hi! I really like to design and make things (eg. this website).</p> 
                 <p>I enjoy learning new skills and working on my own projects.</p>
                 <p>People who know me know that I like to jump into the deep end and push my limits. I'm always expanding my knowledge into different domains.</p>
@@ -60,10 +63,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h2>Hobbies</h2>
+                        <h2>🎱 Hobbies</h2>
                         <ul>
-                            <li>Coding</li>
-                            <li>Graphic Design</li>
+                            <li>Programming</li>
+                            <li>Drawing</li>
+                            <li>Fitness</li>
                             <li>Video Games</li>
                             <li>Music</li>
                             <li>Tennis</li>
@@ -72,14 +76,23 @@
                         </ul>
                     </div>
                     <div class="col">
-                        <h2>Skills</h2>
+                        <h2>🎯 Skills</h2>
                         <ul>
-                            <li>Coding</li>
-                            <li>Graphic Design</li>
-                            <li>Video Editing</li>
-                            <li>Microsoft Office</li>
+                            <li>Programming</li>
                             <li>Web Development</li>
                             <li>Android App Development</li>
+                            <li>Graphic Design</li>
+                            <li>Video Editing</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2>🎯 Goals</h2>
+                        <ul>
+                            <li>Study Computer Science at university</li>
+                            <li>Start my own YouTube channel</li>
+                            <li>Become a better programmer</li>
+                            <li>Learn new languages + frameworks</li>
+                            <li>Start my own business</li>
                         </ul>
                     </div>
                 </div>
@@ -89,11 +102,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-9">
-                        <h2>Programming</h2>
+                        <h2>👨🏽‍💻 Programming</h2>
                         <p>I started programming around 3 years ago. Around Year 8 in school (UK), I was introduced to the Python programming language in Computing lessons and thought it was pretty cool. As I learnt more about the language and the complex things that it enabled, I became really interested in it. This lead me to code extra programs in my spare time, and eventually to the world of App Development. I always thought it would be cool to make a phone app, as we all use our phones everyday, but in my head it seemed to difficult. Around this time, my dad got me a course on Udemy for Android App Development, which I ended up completing (over a long time) and felt confident in the basics of writing apps. To solidify my knowledge, I set out to create my own app. My first ever app was a food ordering app for a family friend's catering business. Even though they didn't end up using it, I learnt a tremendous amount by making this app, including interacting with online databases. I then created a small app for my school, which shows what week it is (A or B). Finally, for my biggest app - Warzone Stats, I developed an app to show player stats for the video game: Call of Duty Warzone. This was very difficult, as I didn't know anything about using 3rd party APIs prior to making it, so I was out of my comfort zone. I'm really glad that I completed this app, as I thought it was really cool and related to something that I enjoy. I went on to learn various other programming languages. I recently got into Web Development and it is something that I am enjoying very much. Also, I took a YouTube course on Python Machine Learning and AI, and I want to delve deeper into this topic in the future.</p>
                     </div>
                     <div class="col-md-3">
-                        <h2>Languages / Frameworks</h2>
+                        <h2>📚 Languages / Frameworks</h2>
                         <ul>
                             <li>Python</li>
                             <li>Java</li>
@@ -111,31 +124,50 @@
         </section>
         <section class="s-1">
             <div class="container">
-                <h2>Projects</h2>
-                <div class="card-deck my-3">
-                    <div class="card">
-                        <h5 class="card-header">Auntie's Halal Food</h5>
-                        <div class="card-body">
-                            <p>Short description for this project</p>
-                            <a href="#">Read More (coming soon)</a>
+                <h2>✏️ Projects</h2>
+                <div class="row row-cols-1 row-cols-md-3 mt-4">
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="images/aunties-halal-food.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Auntie's Halal Food</h5>
+                                <p class="card-text">Short description for Auntie's Halal Food</p>
+                                <a href="#">Read More</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <h5 class="card-header">Week.ly</h5>
-                        <div class="card-body">
-                            <p>Short description for this project</p>
-                            <a href="#">Read More (coming soon)</a>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="images/week.ly.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Week.ly</h5>
+                                <p class="card-text">Short description for Week.ly</p>
+                                <a href="#">Read More</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <h5 class="card-header">Warzone Stats</h5>
-                        <div class="card-body">
-                            <p>Short description for this project</p>
-                            <a href="#">Read More (coming soon)</a>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="images/warzone-stats.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Warzone Stats</h5>
+                                <p class="card-text">Short description for Warzone Stats</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <img src="images/huda-masjid.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Huda Masjid</h5>
+                                <p class="card-text">Short description for Huda Masjid</p>
+                                <a href="http://hudacentre.com/" target="_blank">Live Website</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <a class="btn btn-primary" href="https://github.com/zafaris" target="_blank">See all of my projects on GitHub</a>
+                <a class="btn btn-primary" href="https://github.com/zafaris" target="_blank"><i class="fab fa-github"></i> See all of my projects on GitHub</a>
             </div>
         </section>
     </body>
