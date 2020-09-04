@@ -3,45 +3,48 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6495ed">
-        <meta name="msapplication-TileColor" content="#6495ed">
-        <meta name="theme-color" content="#6495ed">
 
-        <!-- Custom Bootstrap 4 -->
-        <link rel="stylesheet" href="css/custom.css">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/site.webmanifest">
+        <link rel="shortcut icon" href="/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Imaad</title>
+
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="css/main.css">
 
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/4dce3d337b.js" crossorigin="anonymous"></script>
 
         <!-- Default CSS -->
-        <link rel="stylesheet" href="default.css" type="text/css">
+        <link rel="stylesheet" href="css/default.css" type="text/css">
 
         <!-- Theme CSS -->
-        <link id="theme-style" rel="stylesheet" href="light.css" type="text/css">
+        <link id="theme-style" rel="stylesheet" href="css/light.css" type="text/css">
 
-        <title>Imaad</title>
+        <script src="js/script.js" defer></script>
     </head>
     <body>
-        <section class="s-1">
+        <section class="s-gradient">
             <div class="container text-center py-5">
                 <div class="row">
-                    <div class="col-md-8 col-lg-9 align-self-center">
-                        <h1 class="display-2">Hi, I'm Imaad</h1>
-                        <p class="lead">Welcome to my home on the Internet :)</p>
+                    <div class="col-md-8 col-lg-9 mb-2 mb-md-0 align-self-center">
+                        <h1 id="welcome-heading" class="display-3">Hi, I'm Imaad</h1>
+                        <p id="welcome-text" class="lead">Welcome to my home on the Internet :)</p>
                     </div>
-                    <div class="col-md-4 col-lg-3">
-                        <div class="card mx-auto" style="max-width: 250px;">
-                            <h5 class="card-header">Personalise Theme</h5>
+                    <div class="col-md-4 col-lg-3 align-self-center">
+                        <div class="card mx-auto shadow" style="max-width: 250px;">
+                            <h5 class="card-header">Light / Dark Theme</h5>
                             <div class="card-body">
                                 <div class="theme-picker-wrapper">
                                     <div data-theme="light" id="light-theme" class="theme-dot"></div>
                                     <div data-theme="dark" id="dark-theme" class="theme-dot"></div>
-                                    <div data-theme="blue" id="blue-theme" class="theme-dot"></div>
-                                    <div data-theme="purple" id="purple-theme" class="theme-dot"></div>
                                 </div>
                                 <span class="font-italic">Theme settings will be saved for your next visit</span>
                             </div>
@@ -53,29 +56,27 @@
         <section class="s-2">
             <div class="container">
                 <h2>🧬 About Me</h2>
-                <p>Hi! I really like to design and make things (eg. this website).</p> 
-                <p>I enjoy learning new skills and working on my own projects.</p>
-                <p>People who know me know that I like to jump into the deep end and push my limits. I'm always expanding my knowledge into different domains.</p>
-                <p>I'm also a bit of a perfectionist - I'll stay up until 2am trying to tweak the colour of a button until it's pixel-perfect.. Not always a good thing lol</p>
+                <p>Hi, my name is Imaad! I like to solve problems and make things that look cool (eg. this website).</p>
+                <p>From a young age, I naturally enjoyed solving puzzles. I like learning new skills and working on my own projects. People who know me know that I like to jump into the deep end and push my limits. I'm always expanding my knowledge into different domains.</p>
             </div>
         </section>
         <section class="s-1">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md">
                         <h2>🎱 Hobbies</h2>
                         <ul>
                             <li>Programming</li>
                             <li>Drawing</li>
+                            <li>Reading</li>
+                            <li>Chess</li>
                             <li>Fitness</li>
-                            <li>Video Games</li>
+                            <li>Sports</li>
                             <li>Music</li>
-                            <li>Tennis</li>
-                            <li>Badminton</li>
-                            <li>Cricket</li>
+                            <li>Games</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <h2>🎯 Skills</h2>
                         <ul>
                             <li>Programming</li>
@@ -85,7 +86,7 @@
                             <li>Video Editing</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <h2>🎯 Goals</h2>
                         <ul>
                             <li>Study Computer Science at university</li>
@@ -103,7 +104,9 @@
                 <div class="row">
                     <div class="col-md-9">
                         <h2>👨🏽‍💻 Programming</h2>
-                        <p>I started programming around 3 years ago. Around Year 8 in school (UK), I was introduced to the Python programming language in Computing lessons and thought it was pretty cool. As I learnt more about the language and the complex things that it enabled, I became really interested in it. This lead me to code extra programs in my spare time, and eventually to the world of App Development. I always thought it would be cool to make a phone app, as we all use our phones everyday, but in my head it seemed to difficult. Around this time, my dad got me a course on Udemy for Android App Development, which I ended up completing (over a long time) and felt confident in the basics of writing apps. To solidify my knowledge, I set out to create my own app. My first ever app was a food ordering app for a family friend's catering business. Even though they didn't end up using it, I learnt a tremendous amount by making this app, including interacting with online databases. I then created a small app for my school, which shows what week it is (A or B). Finally, for my biggest app - Warzone Stats, I developed an app to show player stats for the video game: Call of Duty Warzone. This was very difficult, as I didn't know anything about using 3rd party APIs prior to making it, so I was out of my comfort zone. I'm really glad that I completed this app, as I thought it was really cool and related to something that I enjoy. I went on to learn various other programming languages. I recently got into Web Development and it is something that I am enjoying very much. Also, I took a YouTube course on Python Machine Learning and AI, and I want to delve deeper into this topic in the future.</p>
+                        <p>I started programming around 3 years ago. Around Year 8 in school (UK), I was introduced to the Python programming language in Computing lessons and thought it was pretty cool. As I learnt more about the language and the complex things that it enabled, I became really interested in it. This lead me to code extra programs in my spare time, and eventually to the world of App Development. I always thought it would be cool to make a phone app, as we all use our phones everyday, but in my head it seemed to difficult. Around this time, my dad got me a course on Udemy for Android App Development, which I ended up completing (over a long time) and felt confident in the basics of writing apps. To solidify my knowledge, I set out to create my own app. </p>
+                        <p>My first ever app was a food ordering app for a family friend's catering business. Even though they didn't end up using it, I learnt a tremendous amount by making this app, including interacting with online databases. I then created a small app for my school, which shows what week it is (A or B). Finally, for my biggest app - Warzone Stats, I developed an app to show player stats for the video game: Call of Duty Warzone. This was very difficult, as I didn't know anything about using 3rd party APIs prior to making it, so I was out of my comfort zone. I'm really glad that I completed this app, as I thought it was really cool and related to something that I enjoy. </p>
+                        <p>I went on to learn various other programming languages. I recently got into Web Development and it is something that I am enjoying very much. Also, I took a YouTube course on Python Machine Learning and AI, and I want to delve deeper into this topic in the future.</p>
                     </div>
                     <div class="col-md-3">
                         <h2>📚 Languages / Frameworks</h2>
@@ -125,9 +128,9 @@
         <section class="s-1">
             <div class="container">
                 <h2>✏️ Projects</h2>
-                <div class="row row-cols-1 row-cols-md-3 mt-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-4">
                     <div class="col mb-4">
-                        <div class="card h-100">
+                        <div class="card h-100 shadow">
                             <img src="images/aunties-halal-food.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Auntie's Halal Food</h5>
@@ -137,8 +140,8 @@
                         </div>
                     </div>
                     <div class="col mb-4">
-                        <div class="card h-100">
-                            <img src="images/week.ly.png" alt="" class="card-img-top">
+                        <div class="card h-100 shadow">
+                            <img src="images/weekly.png" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Week.ly</h5>
                                 <p class="card-text">Short description for Week.ly</p>
@@ -147,7 +150,7 @@
                         </div>
                     </div>
                     <div class="col mb-4">
-                        <div class="card h-100">
+                        <div class="card h-100 shadow">
                             <img src="images/warzone-stats.jpg" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Warzone Stats</h5>
@@ -157,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col mb-4">
-                        <div class="card h-100">
+                        <div class="card h-100 shadow">
                             <img src="images/huda-masjid.jpg" alt="" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Huda Masjid</h5>
@@ -166,10 +169,29 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col mb-4">
+                        <div class="card h-100 shadow">
+                            <img src="images/active-tango.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Active-TANGO</h5>
+                                <p class="card-text">Short description for Active-TANGO</p>
+                                <a href="http://activetango.dcs.warwick.ac.uk/" target="_blank">Live Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100 shadow">
+                            <img src="images/tango2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">TANGO2</h5>
+                                <p class="card-text">Short description for TANGO2</p>
+                                <a href="http://tango2.dcs.warwick.ac.uk/" target="_blank">Live Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a class="btn btn-primary" href="https://github.com/zafaris" target="_blank"><i class="fab fa-github"></i> See all of my projects on GitHub</a>
             </div>
         </section>
     </body>
-    <script src="theme.js"></script>
 </html>
