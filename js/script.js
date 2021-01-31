@@ -29,5 +29,4 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
 
 function setTheme(theme) {
   document.getElementById('theme-style').href = 'css/' + theme + '.css';
-  localStorage.setItem('theme', theme);
 }
